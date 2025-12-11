@@ -1,0 +1,13 @@
+name: data_lake_app
+version: 0.1
+author: birhanu
+description: A dashboard for data_lake.ipynb
+launch: notebooks/data_lake.ipynb   
+kernel: test-env2                    
+requirements:
+  - voila
+  - pandas
+  - numpy
+  - ipywidgets
+  - matplotlib
+
